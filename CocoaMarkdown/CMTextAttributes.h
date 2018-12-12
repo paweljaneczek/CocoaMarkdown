@@ -36,6 +36,8 @@
  */
 @property (nonatomic) NSDictionary *textAttributes;
 
+@property (nonatomic) NSDictionary *paragraphAttributes;
+
 /**
  *  Attributes used to style level 1 headers.
  *
