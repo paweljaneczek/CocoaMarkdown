@@ -22,7 +22,7 @@ static NSDictionary * CMDefaultParagraphAttributes()
 {
     NSMutableParagraphStyle* paragraphStyle = [NSMutableParagraphStyle new];
     paragraphStyle.paragraphSpacingBefore = 12;
-    return @{NSParagraphStyleAttributeName: paragraphStyle}
+    return @{NSParagraphStyleAttributeName: paragraphStyle};
 }
 
 static NSDictionary * CMDefaultH1Attributes()
